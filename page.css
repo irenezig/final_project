@@ -1,0 +1,58 @@
+.page {
+    background: linear-gradient(to top left, black, #363941);
+    color: white;
+}
+
+.page-container {
+   display: grid;
+   grid-template-columns: 1fr 0.75fr; 
+}
+
+.page-container > .text {
+    margin-left: 40px;
+    margin-right: 50px;
+}
+
+.page-container > .text > .text-one {
+    font-size: 2.5em;
+    font-weight: lighter;
+}
+
+.page-container > .text > .text-two {
+    font-size: 2em;
+    font-weight: lighter;
+}
+
+.page-container > .text > .free {
+    background-color: #4bce79;
+    color: black;
+    border: none;
+    border-radius: 3px;
+    font-size: 1.9em;
+    font-weight: 600;
+    padding: 15px 25px;
+}
+
+.page-container > .text > .learn {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 1.9em;
+    font-weight: 600;
+    padding: 15px 20px;
+    margin-left: 10px;
+}
+
+.page-container > .image p {
+    margin: 0px;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+.page-container > .image span {
+    color: #6fd4e4;
+}
+
+.page-container > .image img {
+    width: 100%;
+}
